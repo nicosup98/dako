@@ -24,6 +24,26 @@ export default {
 
 					"error": "#ff3471",
 				},
+				dako2: {
+          
+					"primary": "#d1d5db",
+							 
+					"secondary": "#34d399",
+							 
+					"accent": "#22d3ee",
+							 
+					"neutral": "#060606",
+							 
+					"base-100": "#1b194d",
+							 
+					"info": "#008eff",
+							 
+					"success": "#5bb52a",
+							 
+					"warning": "#fc7700",
+							 
+					"error": "#ff3780",
+							 }
 			},
 		],
 	},

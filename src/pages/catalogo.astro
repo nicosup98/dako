@@ -1,0 +1,44 @@
+---
+import Main from "../layaouts/main.astro"
+---
+
+<Main>
+    <div class="flex justify-center w-4/5 bg-accent rounded mx-auto my-2">
+        <h2 class="text-xl text-blue-900">ofertas de la semana</h2>
+    </div>
+    <div class="carousel w-full ">
+        <div id="slide1" class="carousel-item relative w-full">
+            <div class="flex justify-center w-full">
+                <img src="venta1.jfif" />
+            </div>
+            <div
+                class="absolute flex justify-between transform-translate-y-1/2 left-5 right-5 top-1/2"
+            >
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            <div class="flex justify-center w-full">
+                <img src="venta2.jfif" class="w-1/4" />
+            </div>
+            <div
+                class="absolute flex justify-between transform-translate-y-1/2 left-5 right-5 top-1/2"
+            >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <div class="flex justify-center w-full">
+                <img src="venta3.jfif" />
+            </div>
+            <div
+                class="absolute flex justify-between transform-translate-y-1/2 left-5 right-5 top-1/2"
+            >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+    </div>
+</Main>

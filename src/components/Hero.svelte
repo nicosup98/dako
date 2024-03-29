@@ -10,10 +10,6 @@
         idTitle = "logo";
         color = "cube-color";
     }
-
-    $: {
-        console.log({theme,color,idTitle});
-    }
 </script>
 
 <div class="hero min-h-screen overflow-hidden">
